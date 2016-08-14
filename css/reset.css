@@ -1,0 +1,26 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,a,p,textarea{
+	margin:0 ;
+	padding: 0;
+	font-family:"微软雅黑"; 
+	font-size:12px;
+}	
+ 
+ul,ol,li{
+	list-style: none;
+} 
+a{
+	text-decoration: none; 
+}
+img{
+	border: none; 
+} 
+.clear-float{
+	zoom:1;
+}
+.clear-float:after{
+	display: block;
+	clear:both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
