@@ -1,14 +1,14 @@
 /* login */
 .login_bg{
 	position: fixed;
-	z-index: 1;
+	z-index: 3;
 	height: 100%;
 	width: 100%;
 	background-color: #323232; 
 	opacity: 0.5;  
 } 
 .login_content{
-	position:absolute;
+	position:fixed;
 	z-index: 999;
 	left:50%;
 	top:50%;
@@ -93,6 +93,7 @@
 .header-follow .follow-btn{ 
 	display: inline-block; 
 	margin-right: 15px;
+	margin-bottom:-5px;
 	width: 54px;
 	height: 21px; 
 	background: url("../images/follow-btn.png") no-repeat; 
@@ -256,27 +257,27 @@
 	position: absolute; 
 	width: 320px;
 	height: 222px; 
-	background-color: #2c3339; 
+	  
 }
 .work1{
 	left: 0;
-	background: url();
+	background: url("../images/wr_sports.png") no-repeat;
 }
 .work2{
 	left: 322px;
-	background: url();
+	background: url("../images/wr_meeting.png") no-repeat;
 }
 .work3{
 	left: 644px;
-	background: url();
+	background: url("../images/wr_place.png") no-repeat;
 }
 .work4{
 	right: 322px;
-	background: url();
+	background: url("../images/wr_activity.png") no-repeat;
 }
 .work5{
 	right: 0;
-	background: url();
+	background: url("../images/wr_snack.png") no-repeat;
 }
 .index-workPic .workpic:last-child{
 	margin-right: 0; 
@@ -298,7 +299,7 @@
 }
 .courseInfo .left-panel .tabs{
 	height: 50px;
-	margin-bottom: 30px;
+	 
 }
 .courseInfo .left-panel .tabs a{
 	display: inline-block; 
@@ -314,19 +315,120 @@
 	color: #fff;
 	background-color: #39a030;
 }
+.courseInfo .left-panel .separator{
+	margin:7px 0 20px 0; 
+	width: 960px;
+	border-top: 1px solid #d5d5d5
+	;
+}
 .courseInfo .left-panel .tab-panel{
 	height: 1250px;
 }
 .courseInfo .left-panel .tab-panel .course_col{
 	float: left; 
+	margin-right: 20px;
+}
+.courseInfo .left-panel .tab-panel .course_col:last-child{
+	 
+	margin-right: 0px;
+}
+.courseInfo .left-panel .tab-panel .course_col .course_pic{
+	width: 223px;
+	height: 124px; 
+}
+.courseInfo .left-panel .tab-panel .course_col .course_detail{
+	 padding:10px 5px;
+}
+.courseInfo .left-panel .tab-panel .course_col .course_detail p{
+	 white-space: nowrap; /*不换行*/
+	 overflow: hidden;/*内容超出宽度时隐藏超出部分的内容*/
+	 text-overflow: ellipsis;/*当对象内文本溢出时显示省略标记(...)*/
+	 color: #333333;
+	 margin-bottom: 5px;
+}
+.courseInfo .left-panel .tab-panel .course_col .course_detail .course_title{
+	color: #999999;
+}
+
+.courseInfo .left-panel .tab-panel .course_col .course_detail .course_follow{
+	 height: 18px;
+	 width: 40px;
+	 background: url(../images/course_follow.png) no-repeat;
+	 margin:5px 0px;
+}
+.courseInfo .left-panel .tab-panel .course_col .course_detail .course_price{
+	color: #ff3f00;
+}
+.course_pic1{
+	background: url("../images/course1.png") no-repeat;
+}
+.course_pic2{
+	background: url("../images/course2.png") no-repeat;
+}
+.course_pic3{
+	background: url("../images/course3.png") no-repeat;
+}
+.course_pic4{
+	background: url("../images/course4.png") no-repeat;
+}
+.course_pic5{
+	background: url("../images/course5.png") no-repeat;
+}
+.course_pic6{
+	background: url("../images/course6.png") no-repeat;
+}
+.course_pic7{
+	background: url("../images/course7.png") no-repeat;
+}
+.course_pic8{
+	background: url("../images/course8.png") no-repeat;
+}
+.course_pic9{
+	background: url("../images/course9.png") no-repeat;
+}
+.course_pic10{
+	background: url("../images/course10.png") no-repeat;
+}
+.course_pic11{
+	background: url("../images/course11.png") no-repeat;
+}
+.course_pic12{
+	background: url("../images/course12.png") no-repeat;
+}
+.course_pic13{
+	background: url("../images/course13.png") no-repeat;
+}
+.course_pic14{
+	background: url("../images/course14.png") no-repeat;
+}
+.course_pic15{
+	background: url("../images/course15.png") no-repeat;
+}
+.course_pic16{
+	background: url("../images/course16.png") no-repeat;
+}
+.course_pic17{
+	background: url("../images/course17.png") no-repeat;
+}
+.course_pic18{
+	background: url("../images/course18.png") no-repeat;
+}
+.course_pic19{
+	background: url("../images/course19.png") no-repeat;
+}
+.course_pic20{
+	background: url("../images/course20.png") no-repeat;
 }
 .courseInfo .left-panel .tab-panel .course_col .course{
 	display: block; 
 	margin-bottom: 20px;
-	margin-right: 20px;
+	
 	width: 223px;
 	height: 230px;
-	background-color: #2c3339; 
+	background-color: #fff; 
+	border: 1px solid #f1f1f1;
+	border-top:none;
+	box-shadow: 1px 1px 0 #f1f1f1;
 }
 .courseInfo .left-panel .pagination{
 	position: absolute;
